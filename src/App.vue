@@ -319,10 +319,13 @@ import HelloWorld from './components/HelloWorld.vue'
 	</section></aside><div class="col-md-12 col-lg-9"><main id="main-content"><div class="full-bleed"><div class="row"><div class="col"><h2 xmlns:ouc="http://omniupdate.com/XSL/Variables">Join our community. Become a West Valley College student today.</h2>
 
 
-
-	<a href="https://www.opencccapply.net/gateway/apply?cccMisCode=493" class="imageLink a-base-button a-button--primary w-50 mx-md-auto wv-full-width-sm" role="button" target="_blank" rel="noopener">Begin Your Application</a>
- 
-
+    <h3 class="app-begin">Begin Your Application:</h3>
+    <div class="app-begin-container">
+      <a href="https://www.westvalley.edu/high-school-students/index.html" class="imageLink a-base-button a-button--primary w-40 mx-md-auto wv-full-width-sm" role="button" target="_blank" rel="noopener">High School</a>
+      <a href="https://www.westvalley.edu/graduating-high-school-students/index.html" class="imageLink a-base-button a-button--primary w-40 mx-md-auto wv-full-width-sm" role="button" target="_blank" rel="noopener">Graduating Seniors</a>
+      <a href="https://www.westvalley.edu/services/international/index.html" class="imageLink a-base-button a-button--primary w-40 mx-md-auto wv-full-width-sm" role="button" target="_blank" rel="noopener">International Students</a>
+      <a href="https://www.westvalley.edu/schools/continuing-education/index.html" class="imageLink a-base-button a-button--primary w-40 mx-md-auto wv-full-width-sm" role="button" target="_blank" rel="noopener">Community Education</a>
+    </div>
 
 
 	<div class="card-deck"><div class="card text-left bg-transparent"><img src="https://www.westvalley.edu/onboard/_files/images/card-apply.jpg" class="card-img-top" alt="Smiling female student in wheelchair with laptop"><div class="card-body"><p xmlns:ouc="http://omniupdate.com/XSL/Variables"><em>Apply now to West Valley College.</em></p>
@@ -342,7 +345,7 @@ import HelloWorld from './components/HelloWorld.vue'
 <div class="col-md-4">
 
 
-	<div class="card text-left bg-transparent"><img src="https://www.westvalley.edu/onboard/_files/images/card-register.jpg" class="card-img-top" alt="Laptop with student hand holding mobile phone"><div class="card-body"><p><em>Register for the classes that meet your goals.</em></p></div><div class="list-group list-group-flush "><a class="list-group-item list-group-item-action" title="Search for classes" href="https://schedule.wvm.edu/?college=wv" target="_blank" rel="noopener">Search for classes</a><a class="list-group-item list-group-item-action" title="Submit pre-requisites for classes (if needed)" href="/admissions/assessment/prerequisite_form.html">Submit pre-requisites for classes (if needed)</a><a class="list-group-item list-group-item-action" title="Register for classes" href="/admissions/registration.html">Register for classes</a></div><div class="card-body"><div class="w-100"><a href="/onboard/register.html" class="imageLink a-base-button  a-button--primary" role="button" target="_self">See More Details</a></div></div></div>
+	<div class="card text-left bg-transparent"><img src="https://www.westvalley.edu/onboard/_files/images/card-register.jpg" class="card-img-top" alt="Laptop with student hand holding mobile phone"><div class="card-body"><p><em>Register for the classes that meet your goals.</em></p></div><div class="list-group list-group-flush "><a class="list-group-item list-group-item-action" title="Search for classes" href="https://schedule.wvm.edu/?college=wv" target="_blank" rel="noopener">Search for classes</a><a class="list-group-item list-group-item-action" title="Submit pre-requisites for classes (if needed)" href="/admissions/assessment/prerequisite_form.html">Submit pre-requisites for classes (if needed)</a><a class="list-group-item list-group-item-action" title="Register for classes" href="/admissions/registration.html">Register for classes</a><a class="list-group-item list-group-item-action" title="Register for classes" href="https://www.westvalley.edu/academics/career-programs/index.html">See Class Programs</a></div><div class="card-body"><div class="w-100"><a href="/onboard/register.html" class="imageLink a-base-button  a-button--primary" role="button" target="_self">See More Details</a></div></div></div>
  
 
 </div>
@@ -8429,6 +8432,10 @@ button.bg-dark:focus {
 
 .w-25 {
 	width: 25% !important;
+}
+
+.w-40 {
+  width: 40% !important;
 }
 
 .w-50 {
@@ -23368,4 +23375,15 @@ OCELOT EMBED FIXES
 	color: #282828;
 }
 
+.app-begin {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.app-begin-container {
+  display: flex;
+  column-gap: 160px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 </style>
